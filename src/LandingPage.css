@@ -1,0 +1,64 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 98.75vw;
+  min-height: 100vh;
+  background-color: #E0E0E0;
+}
+
+.stock-image {
+  height: 82vh;
+  width: 28vw;
+  padding: 0.5%;
+  border: 4px #4D4D4D double;
+}
+
+.name-text {
+  width: 29vw;
+  margin: 0 0;
+  padding: 0 0;
+  color: #4D4D4D;
+  font-family: 'Rokkitt', serif;
+  font-size: 2.5em;
+  font-weight: 900;
+}
+
+.mission-text,
+.vision-text {
+  margin: 0 0;
+  padding: 0 0;
+  color: #4D4D4D;
+  font-family: 'Scope One', serif;
+  font-size: .85em;
+  font-weight: normal;
+}
+
+.mission-text {
+  position: relative;
+  float: left;
+}
+
+.mission-text span {
+  display: inline-block;
+  position: absolute;
+  left: -23.5vw;
+  top: -68px;
+  width: 1200px;
+  transform: rotate(90deg);
+}
+
+.vision-text {
+  position: relative;
+  float: right;
+}
+
+.vision-text span {
+  display: inline-block;
+  position: absolute;
+  width: 500px;
+  left: -31.75vw;
+  top: -311px;
+  transform: rotate(-90deg);
+}

@@ -1,0 +1,6 @@
+.about-us-container {
+    display: flex;
+    width: 98.75vw;
+    min-height: 100vh;
+    background-color: #FF3036;
+}
