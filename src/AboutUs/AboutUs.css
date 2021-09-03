@@ -1,6 +1,32 @@
 .about-us-container {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 98.75vw;
     min-height: 100vh;
     background-color: #E0E0E0;
+}
+
+.about-us {
+    height: 60vh;
+    width: 33vw;
+    border: 4px #4D4D4D double;
+    background-color: #CCCCCC;
+}
+
+.about-us__heading {
+    color: #4D4D4D;
+    font-family: 'Rokkitt', serif;
+    font-size: 2.5em;
+    font-weight: 900;
+    text-align: center;
+}
+
+.about-us__text {
+    padding: 0 3vw;
+    color: #4D4D4D;
+    font-family: 'Scope One', serif;
+    font-size: .85em;
+    font-weight: normal;
 }
