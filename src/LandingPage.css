@@ -9,8 +9,8 @@
 }
 
 .stock-image {
-  height: 82vh;
-  width: 28vw;
+  height: 70vh;
+  width: 68vw;
   padding: 0.5%;
   border: 4px #4D4D4D double;
 }
@@ -22,12 +22,12 @@
 }
 
 .name-text {
-  width: 28vw;
+  width: 40vw;
   margin: 0 0;
   padding: 0 0;
   color: #4D4D4D;
   font-family: 'Rokkitt', serif;
-  font-size: 2.5em;
+  font-size: 1.25em;
   font-weight: 900;
 }
 
@@ -41,35 +41,33 @@
   padding: 0 0;
   color: #4D4D4D;
   font-family: 'Scope One', serif;
-  font-size: .85em;
+  font-size: .6em;
   font-weight: normal;
 }
 
 .mission-text {
   position: relative;
-  float: left;
 }
 
 .mission-text span {
   display: inline-block;
   position: absolute;
-  left: -23.5vw;
-  top: -68px;
-  width: 1200px;
+  left: -210px;
+  top: -130px;
+  width: 700px;
   transform: rotate(90deg);
 }
 
 .vision-text {
   position: relative;
-  float: right;
 }
 
 .vision-text span {
   display: inline-block;
   position: absolute;
   width: 500px;
-  left: -31.75vw;
-  top: -311px;
+  left: -390px;
+  top: -286px;
   transform: rotate(-90deg);
 }
 
@@ -82,6 +80,65 @@
   }
 }
 
+
+
+@media (min-width: 1536px) {
+
+  .title-and-svg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .name-text {
+    width: 28vw;
+    margin: 0 0;
+    padding: 0 0;
+    color: #4D4D4D;
+    font-family: 'Rokkitt', serif;
+    font-size: 2.5em;
+    font-weight: 900;
+  }
+
+  .mission-text,
+  .vision-text {
+    margin: 0 0;
+    padding: 0 0;
+    color: #4D4D4D;
+    font-family: 'Scope One', serif;
+    font-size: .85em;
+    font-weight: normal;
+  }
+
+  .mission-text span {
+    display: inline-block;
+    position: absolute;
+    left: -23.5vw;
+    top: -68px;
+    width: 1200px;
+    transform: rotate(90deg);
+  }
+
+  .vision-text span {
+    display: inline-block;
+    position: absolute;
+    width: 500px;
+    left: -31.75vw;
+    top: -311px;
+    transform: rotate(-90deg);
+  }
+
+  .stock-image {
+    height: 82vh;
+    width: 28vw;
+    padding: 0.5%;
+    border: 4px #4D4D4D double;
+  }
+  
+}
+
+
+
 @media (min-width: 1920px) {
 
   .App {
@@ -92,6 +149,32 @@
     width: 99.05vw;
     min-height: 100vh;
     background-color: #E0E0E0;
+  }
+
+  .title-and-svg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .name-text {
+    width: 28vw;
+    margin: 0 0;
+    padding: 0 0;
+    color: #4D4D4D;
+    font-family: 'Rokkitt', serif;
+    font-size: 2.5em;
+    font-weight: 900;
+  }
+
+  .mission-text,
+  .vision-text {
+    margin: 0 0;
+    padding: 0 0;
+    color: #4D4D4D;
+    font-family: 'Scope One', serif;
+    font-size: .85em;
+    font-weight: normal;
   }
 
   .mission-text span {
@@ -111,5 +194,12 @@
     top: -308px;
     transform: rotate(-90deg);
   }
-  
+
+  .stock-image {
+    height: 82vh;
+    width: 28vw;
+    padding: 0.5%;
+    border: 4px #4D4D4D double;
+  }
+
 }
