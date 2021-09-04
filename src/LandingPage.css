@@ -81,3 +81,35 @@
     transform: translateY(15%);
   }
 }
+
+@media (min-width: 1920px) {
+
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 99.05vw;
+    min-height: 100vh;
+    background-color: #E0E0E0;
+  }
+
+  .mission-text span {
+    display: inline-block;
+    position: absolute;
+    left: -16vw;
+    top: -245px;
+    width: 1200px;
+    transform: rotate(90deg);
+  }
+
+  .vision-text span {
+    display: inline-block;
+    position: absolute;
+    width: 500px;
+    left: -28.35vw;
+    top: -308px;
+    transform: rotate(-90deg);
+  }
+  
+}
