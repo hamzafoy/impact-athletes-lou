@@ -22,7 +22,7 @@
 }
 
 .name-text {
-  width: 40vw;
+  width: 64vw;
   margin: 0 0;
   padding: 0 0;
   color: #4D4D4D;
@@ -53,7 +53,7 @@
   display: inline-block;
   position: absolute;
   left: -210px;
-  top: -130px;
+  top: -194px;
   width: 700px;
   transform: rotate(90deg);
 }
