@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 98.75vw;
+  width: 100%;
   min-height: 100vh;
   background-color: #E0E0E0;
 }
@@ -84,6 +84,16 @@
 
 @media (min-width: 1536px) {
 
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #E0E0E0;
+  }
+
   .title-and-svg {
     display: flex;
     flex-direction: row;
@@ -146,7 +156,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 99.05vw;
+    width: 100%;
     min-height: 100vh;
     background-color: #E0E0E0;
   }
