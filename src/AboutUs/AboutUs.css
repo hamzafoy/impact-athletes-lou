@@ -9,8 +9,8 @@
 }
 
 .about-us {
-    height: 40vh;
-    width: 75vw;
+    height: 27.5vh;
+    width: 90vw;
     border: 4px #4D4D4D double;
     background-color: #CCCCCC;
 }
@@ -18,7 +18,7 @@
 .about-us__heading {
     color: #4D4D4D;
     font-family: 'Rokkitt', serif;
-    font-size: 1.45em;
+    font-size: 1.35em;
     font-weight: 900;
     text-align: center;
 }
@@ -27,7 +27,7 @@
     padding: 0 3vw;
     color: #4D4D4D;
     font-family: 'Scope One', serif;
-    font-size: .85em;
+    font-size: .75em;
     font-weight: normal;
 }
 
@@ -44,10 +44,56 @@
     }
 
     .about-us {
-        height: 40vh;
-        width: 25vw;
+        height: 60vh;
+        width: 40vw;
         border: 4px #4D4D4D double;
         background-color: #CCCCCC;
+    }
+
+    .about-us__heading {
+        color: #4D4D4D;
+        font-family: 'Rokkitt', serif;
+        font-size: 1.75em;
+        font-weight: 900;
+        text-align: center;
+    }
+    
+    .about-us__text {
+        padding: 0 3vw;
+        color: #4D4D4D;
+        font-family: 'Scope One', serif;
+        font-size: 1.05em;
+        font-weight: normal;
+    }
+
+    .staff-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        min-height: 99vh;
+    }
+
+    .staff {
+        height: 30vh;
+        width: 35vw;
+        border: 4px #4D4D4D double;
+        background-color: #CCCCCC;
+    }
+
+    .staff__heading {
+        color: #4D4D4D;
+        font-family: 'Rokkitt', serif;
+        font-size: 1.35em;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .staff__text {
+        padding: 0 3vw;
+        color: #4D4D4D;
+        font-family: 'Scope One', serif;
+        font-size: .75em;
+        font-weight: normal;
     }
     
   }
@@ -65,10 +111,56 @@
     }
 
     .about-us {
-        height: 40vh;
-        width: 25vw;
+        height: 60vh;
+        width: 35vw;
         border: 4px #4D4D4D double;
         background-color: #CCCCCC;
+    }
+
+    .about-us__heading {
+        color: #4D4D4D;
+        font-family: 'Rokkitt', serif;
+        font-size: 1.75em;
+        font-weight: 900;
+        text-align: center;
+    }
+    
+    .about-us__text {
+        padding: 0 3vw;
+        color: #4D4D4D;
+        font-family: 'Scope One', serif;
+        font-size: 1.05em;
+        font-weight: normal;
+    }
+
+    .staff-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        min-height: 99vh;
+    }
+
+    .staff {
+        height: 30vh;
+        width: 35vw;
+        border: 4px #4D4D4D double;
+        background-color: #CCCCCC;
+    }
+
+    .staff__heading {
+        color: #4D4D4D;
+        font-family: 'Rokkitt', serif;
+        font-size: 1.35em;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .staff__text {
+        padding: 0 3vw;
+        color: #4D4D4D;
+        font-family: 'Scope One', serif;
+        font-size: .75em;
+        font-weight: normal;
     }
 
 }
