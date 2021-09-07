@@ -18,16 +18,16 @@
 .about-us__heading {
     color: #4D4D4D;
     font-family: 'Rokkitt', serif;
-    font-size: 1.35em;
+    font-size: 1.25em;
     font-weight: 900;
     text-align: center;
 }
 
 .about-us__text {
-    padding: 0 1.5vw;
+    padding: 0 1vw;
     color: #4D4D4D;
     font-family: 'Scope One', serif;
-    font-size: .7em;
+    font-size: .65em;
     font-weight: normal;
 }
 
@@ -35,14 +35,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    min-height: 85vh;
+    min-height: 70vh;
 }
 
 .staff {
     position: relative;
     perspective: 150rem;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     
 }
 
@@ -51,11 +51,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 250px;
     transition: all 1s ease;
     position: absolute;
     top: 0;
-    left: 0;
+    left: -3px;
     backface-visibility: hidden;
     border: 4px #4D4D4D double;
     background-color: #CCCCCC;
@@ -74,15 +74,15 @@
 }
 
 .staff_card__foto {
-    height: 275px;
-    width: 300px;
+    height: 225px;
+    width: 250px;
 }
 
 .staff__heading {
     margin: 0 0;
     color: #4D4D4D;
     font-family: 'Rokkitt', serif;
-    font-size: 1.35em;
+    font-size: 1.25em;
     font-weight: 900;
     text-align: center;
 }
@@ -91,7 +91,7 @@
     padding: 0 1.5vw;
     color: #4D4D4D;
     font-family: 'Scope One', serif;
-    font-size: .85em;
+    font-size: .65em;
     font-weight: normal;
 }
 
