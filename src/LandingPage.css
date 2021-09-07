@@ -91,6 +91,77 @@
 
 
 
+@media (min-width: 1280px) {
+
+  .App {
+    display: flex;
+    min-height: 100vh;
+    background-color: #E0E0E0;
+  }
+
+  .title-and-svg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .name-text {
+    width: 50vw;
+    margin: 0 0;
+    padding: 0 0;
+    color: #4D4D4D;
+    font-family: 'Rokkitt', serif;
+    font-size: 2.5em;
+    font-weight: 900;
+  }
+
+  .mission-text,
+  .vision-text {
+    margin: 0 0;
+    padding: 0 0;
+    color: #4D4D4D;
+    font-family: 'Scope One', serif;
+    font-size: .85em;
+    font-weight: normal;
+  }
+
+  .mission-text {
+    position: relative;
+    float: left;
+  }
+
+  .vision-text {
+    position: relative;
+    float: right;
+  }
+
+  .mission-text span {
+    display: inline-block;
+    position: absolute;
+    left: -640px;
+    top: 450px;
+    width: 600px;
+    transform: rotate(-90deg);
+  }
+
+  .vision-text span {
+    display: inline-block;
+    position: absolute;
+    width: 500px;
+    left: 90px;
+    top: -520px;
+    transform: rotate(90deg);
+  }
+
+  .stock-image {
+    height: 85vh;
+    width: 50%;
+    padding: 0.5%;
+    border: 4px #4D4D4D double;
+  }
+  
+}
+
 @media (min-width: 1536px) {
 
   .App {
