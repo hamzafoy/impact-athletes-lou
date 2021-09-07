@@ -46,7 +46,7 @@ function AboutUs() {
                 <div className="staff_card back">
 
                     <p className="staff__text">
-                        Our CEO and Founder Ricky Santiago few up in a very Sports
+                        Our CEO and Founder Ricky Santiago grew up in a very Sports
                         Oriented family. Originally from Ponce, Puerto Rico, a town that takes
                         sports very seriously that&#39;s the birth place of World Class athletes, by
                         way of Louisville, KY another town that takes sports very serious, its
