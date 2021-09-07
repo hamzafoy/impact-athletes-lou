@@ -53,7 +53,7 @@
   display: inline-block;
   position: absolute;
   left: -492px;
-  top: 250px;
+  top: 160px;
   width: 700px;
   transform: rotate(-90deg);
 }
@@ -67,7 +67,7 @@
   position: absolute;
   width: 500px;
   left: -108px;
-  top: -365px;
+  top: -275px;
   transform: rotate(90deg);
 }
 
