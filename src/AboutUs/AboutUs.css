@@ -31,6 +31,71 @@
     font-weight: normal;
 }
 
+.staff-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 99vh;
+}
+
+.staff {
+    position: relative;
+    perspective: 150rem;
+    height: 325px;
+    width: 325px;
+    
+}
+
+.staff_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 325px;
+    width: 100%;
+    transition: all 1s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    border: 4px #4D4D4D double;
+    background-color: #CCCCCC;
+}
+
+.staff_card.back {
+    transform: rotateY(-180deg);
+}
+
+.staff:hover .staff_card.front {
+    transform: rotateY(180deg);
+}
+
+.staff:hover .staff_card.back {
+    transform: rotateY(0deg);
+}
+
+.staff_card__foto {
+    height: 300px;
+    width: 325px;
+}
+
+.staff__heading {
+    margin: 0 0;
+    color: #4D4D4D;
+    font-family: 'Rokkitt', serif;
+    font-size: 1.35em;
+    font-weight: 900;
+    text-align: center;
+}
+
+.staff__text {
+    padding: 0 1.5vw;
+    color: #4D4D4D;
+    font-family: 'Scope One', serif;
+    font-size: .85em;
+    font-weight: normal;
+}
+
 @media (min-width: 1536px) {
 
     .about-us-container {
@@ -74,13 +139,48 @@
     }
 
     .staff {
-        height: 30vh;
-        width: 35vw;
+        position: relative;
+        perspective: 150rem;
+        height: 325px;
+        width: 325px;
+        
+    }
+
+    .staff_card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 325px;
+        width: 100%;
+        transition: all 1s ease;
+        position: absolute;
+        top: 0;
+        left: 0;
+        backface-visibility: hidden;
         border: 4px #4D4D4D double;
         background-color: #CCCCCC;
     }
 
+    .staff_card.back {
+        transform: rotateY(-180deg);
+    }
+
+    .staff:hover .staff_card.front {
+        transform: rotateY(180deg);
+    }
+
+    .staff:hover .staff_card.back {
+        transform: rotateY(0deg);
+    }
+
+    .staff_card__foto {
+        height: 300px;
+        width: 325px;
+    }
+
     .staff__heading {
+        margin: 0 0;
         color: #4D4D4D;
         font-family: 'Rokkitt', serif;
         font-size: 1.35em;
@@ -89,10 +189,10 @@
     }
 
     .staff__text {
-        padding: 0 3vw;
+        padding: 0 1.5vw;
         color: #4D4D4D;
         font-family: 'Scope One', serif;
-        font-size: .75em;
+        font-size: .85em;
         font-weight: normal;
     }
     
@@ -141,10 +241,44 @@
     }
 
     .staff {
-        height: 30vh;
-        width: 35vw;
+        position: relative;
+        perspective: 150rem;
+        height: 325px;
+        width: 325px;
+        
+    }
+
+    .staff_card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 325px;
+        width: 100%;
+        transition: all 1s ease;
+        position: absolute;
+        top: 0;
+        left: 0;
+        backface-visibility: hidden;
         border: 4px #4D4D4D double;
         background-color: #CCCCCC;
+    }
+
+    .staff_card.back {
+        transform: rotateY(-180deg);
+    }
+
+    .staff:hover .staff_card.front {
+        transform: rotateY(180deg);
+    }
+
+    .staff:hover .staff_card.back {
+        transform: rotateY(0deg);
+    }
+
+    .staff_card__foto {
+        height: 300px;
+        width: 325px;
     }
 
     .staff__heading {
