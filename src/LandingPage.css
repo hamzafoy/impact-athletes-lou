@@ -32,7 +32,7 @@
 }
 
 .double-chevrons-down {
-  animation: motiondown 1.25s ease-in-out infinite;
+  animation: motiondown .9s ease infinite;
 }
 
 .mission-text,
@@ -75,8 +75,17 @@
   0% {
     transform: translateY(0%);
   }
+  25% {
+    transform: translateY(7%);
+  }
+  50% {
+    transform: translateY(14%);
+  }
+  75% {
+    transform: translateY(7%);
+  }
   100% {
-    transform: translateY(15%);
+    transform: translateY(0%);
   }
 }
 
