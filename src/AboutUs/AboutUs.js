@@ -32,7 +32,7 @@ function AboutUs() {
                 </h1>
 
                 <p className="staff__text">
-
+                    Test Test Test Test Test
                 </p>
 
             </aside>
@@ -44,16 +44,7 @@ function AboutUs() {
                 </h1>
 
                 <p className="staff__text">
-                Isai “Izzy” Sanchez was born in Ciudad Cordoba, Veracruz, Mexico. 
-                In his home town, his father, Isai Sanchez Sr., played for the 
-                professional division II soccer team Los Tiburones Rojos de Veracruz. 
-                Izzy’s grandfather, Luis Miguel Sanchez, was also a professional 
-                Luchador and boxer in Mexico. Izzy played High School football at 
-                Louisville Central High School where he primarily played Left Tackle. 
-                Izzy is currently training to be a power lifter and boxer. Izzy has a long 
-                history in the non-profit world and minority outreach. Izzy currently 
-                runs the division of Latino/Spanish Outreach for the first Black Owned 
-                Title company in Louisville. 
+                    Test Test Test Test Test
                 </p>
 
             </aside>
@@ -67,3 +58,14 @@ function AboutUs() {
 
   
   export default AboutUs;
+
+/*   Isai “Izzy” Sanchez was born in Ciudad Cordoba, Veracruz, Mexico. 
+                In his home town, his father, Isai Sanchez Sr., played for the 
+                professional division II soccer team Los Tiburones Rojos de Veracruz. 
+                Izzy’s grandfather, Luis Miguel Sanchez, was also a professional 
+                Luchador and boxer in Mexico. Izzy played High School football at 
+                Louisville Central High School where he primarily played Left Tackle. 
+                Izzy is currently training to be a power lifter and boxer. Izzy has a long 
+                history in the non-profit world and minority outreach. Izzy currently 
+                runs the division of Latino/Spanish Outreach for the first Black Owned 
+                Title company in Louisville.  */

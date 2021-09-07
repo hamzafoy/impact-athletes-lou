@@ -45,7 +45,7 @@
 
     .about-us {
         height: 60vh;
-        width: 40vw;
+        width: 25vw;
         border: 4px #4D4D4D double;
         background-color: #CCCCCC;
     }
@@ -59,7 +59,7 @@
     }
     
     .about-us__text {
-        padding: 0 3vw;
+        padding: 0 1.25vw;
         color: #4D4D4D;
         font-family: 'Scope One', serif;
         font-size: 1.05em;
@@ -112,7 +112,7 @@
 
     .about-us {
         height: 60vh;
-        width: 35vw;
+        width: 25vw;
         border: 4px #4D4D4D double;
         background-color: #CCCCCC;
     }
