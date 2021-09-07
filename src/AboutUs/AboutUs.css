@@ -102,6 +102,115 @@
     font-weight: 900;
 }
 
+@media (min-width: 1280px) {
+
+    .about-us-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        min-height: 100vh;
+        background-color: #E0E0E0;
+    }
+
+    .about-us {
+        height: 38vh;
+        width: 45vw;
+        border: 4px #4D4D4D double;
+        background-color: #CCCCCC;
+    }
+
+    .about-us__heading {
+        margin: 2.5vh 0 2vh;
+        color: #4D4D4D;
+        font-family: 'Rokkitt', serif;
+        font-size: 1.75em;
+        font-weight: 900;
+        text-align: center;
+    }
+    
+    .about-us__text {
+        margin: 0 0;
+        padding: 0 1.25vw;
+        color: #4D4D4D;
+        font-family: 'Scope One', serif;
+        font-size: 1.05em;
+        font-weight: normal;
+    }
+
+    .staff-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        min-height: 99vh;
+    }
+
+    .staff {
+        position: relative;
+        perspective: 150rem;
+        height: 325px;
+        width: 325px;
+        
+    }
+
+    .staff_card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 325px;
+        width: 100%;
+        transition: all 1s ease;
+        position: absolute;
+        top: 0;
+        left: 0;
+        backface-visibility: hidden;
+        border: 4px #4D4D4D double;
+        background-color: #CCCCCC;
+    }
+
+    .staff_card.back {
+        transform: rotateY(-180deg);
+    }
+
+    .staff:hover .staff_card.front {
+        transform: rotateY(180deg);
+    }
+
+    .staff:hover .staff_card.back {
+        transform: rotateY(0deg);
+    }
+
+    .staff_card__foto {
+        height: 300px;
+        width: 325px;
+    }
+
+    .staff__heading {
+        margin: 0 0;
+        color: #4D4D4D;
+        font-family: 'Rokkitt', serif;
+        font-size: 1.35em;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .staff__text {
+        padding: 0 1.5vw;
+        color: #4D4D4D;
+        font-family: 'Scope One', serif;
+        font-size: .85em;
+        font-weight: normal;
+    }
+
+    .bold-text {
+        margin: 3vh 0 0;
+        font-weight: 900;
+    }
+    
+  }
+
 @media (min-width: 1536px) {
 
     .about-us-container {
