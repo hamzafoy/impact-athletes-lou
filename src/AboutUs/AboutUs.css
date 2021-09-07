@@ -97,6 +97,11 @@
     font-weight: normal;
 }
 
+.bold-text {
+    margin: 2vh 0 0;
+    font-weight: 900;
+}
+
 @media (min-width: 1536px) {
 
     .about-us-container {
@@ -197,6 +202,11 @@
         font-family: 'Scope One', serif;
         font-size: .85em;
         font-weight: normal;
+    }
+
+    .bold-text {
+        margin: 3vh 0 0;
+        font-weight: 900;
     }
     
   }
@@ -300,6 +310,11 @@
         font-family: 'Scope One', serif;
         font-size: .75em;
         font-weight: normal;
+    }
+
+    .bold-text {
+        margin: 3vh 0 0;
+        font-weight: 900;
     }
 
 }

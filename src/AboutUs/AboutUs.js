@@ -21,7 +21,9 @@ function AboutUs() {
                 Our staff has over 10 years of involvement in athletics and the non-profit world. 
                 Whether you want to have a single day event or a legacy program, our staff can help 
                 you build your dreams of IMPACT.
-                <br/><br/>
+            </p>
+
+            <p className="about-us__text bold-text">
                 Hover/Tap on the following cards to read our staff's bios!
             </p>
 
