@@ -53,7 +53,7 @@
   display: inline-block;
   position: absolute;
   left: -515px;
-  top: 190px;
+  top: 215px;
   width: 700px;
   transform: rotate(-90deg);
 }
@@ -67,7 +67,7 @@
   position: absolute;
   width: 500px;
   left: -85px;
-  top: -300px;
+  top: -305px;
   transform: rotate(90deg);
 }
 
@@ -214,8 +214,8 @@
   .mission-text span {
     display: inline-block;
     position: absolute;
-    left: 25%;
-    top: -315px;
+    left: -5px;
+    top: 295px;
     width: 600px;
     transform: rotate(90deg);
   }
@@ -224,7 +224,7 @@
     display: inline-block;
     position: absolute;
     width: 500px;
-    left: -696px;
+    left: -545px;
     top: -265px;
     transform: rotate(-90deg);
   }
