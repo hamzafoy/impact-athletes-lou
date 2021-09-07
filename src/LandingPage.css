@@ -10,7 +10,7 @@
 
 .stock-image {
   height: 70vh;
-  width: 68vw;
+  width: 80vw;
   padding: 0.5%;
   border: 4px #4D4D4D double;
 }
@@ -22,7 +22,7 @@
 }
 
 .name-text {
-  width: 64vw;
+  width: 76vw;
   margin: 0 0;
   padding: 0 0;
   color: #4D4D4D;
@@ -52,8 +52,8 @@
 .mission-text span {
   display: inline-block;
   position: absolute;
-  left: -492px;
-  top: 160px;
+  left: -515px;
+  top: 190px;
   width: 700px;
   transform: rotate(-90deg);
 }
@@ -66,8 +66,8 @@
   display: inline-block;
   position: absolute;
   width: 500px;
-  left: -108px;
-  top: -275px;
+  left: -85px;
+  top: -300px;
   transform: rotate(90deg);
 }
 
