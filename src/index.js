@@ -1,16 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import LandingPage from './LandingPage';
-import AboutUs from './AboutUs/AboutUs';
-import NavBar from './NavBar/NavBar';
+import App from './App';
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <LandingPage />
-    <AboutUs />
-    <NavBar />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

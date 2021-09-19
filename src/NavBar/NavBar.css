@@ -1,5 +1,8 @@
 .nav-menu {
-    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    height: 7.5vh;
     width: 100%;
-    background-color: blueviolet;
+    background-color: #FFEBEC;
+    border-top: 1.25px double #4D4D4D;
 }

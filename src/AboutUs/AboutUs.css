@@ -326,16 +326,16 @@
     .about-us-container {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
+        justify-content: flex-start;
         width: 100%;
-        min-height: 100vh;
+        min-height: 110vh;
         background-color: #E0E0E0;
     }
 
     .about-us {
         height: 45vh;
         width: 25vw;
+        margin: 0 10vw;
         border: 4px #4D4D4D double;
         background-color: #CCCCCC;
     }
