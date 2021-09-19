@@ -218,7 +218,7 @@
         flex-direction: row;
         justify-content: flex-start;
         width: 100%;
-        min-height: 100vh;
+        min-height: 120vh;
         background-color: #E0E0E0;
     }
 
