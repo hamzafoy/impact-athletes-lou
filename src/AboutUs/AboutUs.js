@@ -1,7 +1,7 @@
 import './AboutUs.css';
 import rsantiago from '../assets/rs_headshot.jpeg';
 import isanchez from '../assets/is_headshot.jpg';
-import jreyes from '../assets/jr_headshot.jpeg';
+import jreyes from '../assets/jr_headshot.png';
 
 
 
