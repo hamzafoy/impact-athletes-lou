@@ -12,19 +12,29 @@ class NavBar extends React.Component {
             <div className="nav-menu">
 
                 <div className="nav-menu__options">
+
                     <section className="menu-option">
-                        <Link to="/">
+                        <Link className="anchor" to="/">
                             Home
                         </Link>
                     </section>
-                </div>
 
-                <div className="nav-menu__options">
                     <section className="menu-option">
-                        <Link to="/services">
+                        <Link className="anchor" to="/services">
                             Services
                         </Link>
                     </section>
+
+                    <section className="menu-option">
+                        <Link className="anchor" to="/impact">
+                            IMPACT Process
+                        </Link>
+                    </section>
+
+                </div>
+
+                <div className="nav-menu__icons">
+                    Test
                 </div>
                 
             </div>
