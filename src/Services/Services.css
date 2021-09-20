@@ -1,5 +1,26 @@
 .services-container {
+    display: flex;
+    flex-direction: row;
     min-height: 100vh;
     width: 100%;
     background-color: #E0E0E0;
+}
+
+
+.services__img {
+    align-self: center;
+}
+
+
+.ball-img {
+    width: 650px;
+    height: 650px;
+}
+
+
+.services__description {
+    align-self: center;
+    font-family: 'Scope One', serif;
+    font-size: 1.25em;
+    padding: 0 8vw;
 }
