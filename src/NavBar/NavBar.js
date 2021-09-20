@@ -39,45 +39,6 @@ class NavBar extends React.Component {
                 </div>
 
                 <div className="nav-menu__icons">
-                    
-                    <a href="https://www.facebook.com/Impact-Athletes-228267015778457" 
-                    rel="noreferrer" 
-                    target="_blank"
-                    >
-                        <img 
-                        className="nav-icons" 
-                        alt="Facebook Icon" 
-                        src={facebook} 
-                        height="24px" 
-                        width="24px"
-                        />
-                    </a>
-
-                    <a href="https://www.instagram.com/impact.athletes/" 
-                    target="_blank"
-                    rel="noreferrer"
-                    >
-                        <img 
-                        className="nav-icons" 
-                        alt="Instagram Icon" 
-                        src={instagram} 
-                        height="24px" 
-                        width="24px"
-                        />
-                    </a>
-
-                    <a href="https://twitter.com/ImpactAthletes" 
-                    target="_blank"
-                    rel="noreferrer"
-                    >
-                        <img 
-                        className="nav-icons" 
-                        alt="Twitter Icon" 
-                        src={twitter} 
-                        height="24px" 
-                        width="24px"
-                        />
-                    </a>
 
                     <a href="tel:+15023787805" 
                     target="_blank"
@@ -87,8 +48,8 @@ class NavBar extends React.Component {
                         className="nav-icons" 
                         alt="Phone Icon" 
                         src={officephone} 
-                        height="24px" 
-                        width="24px"
+                        height="22px" 
+                        width="22px"
                         />
                     </a>
 
@@ -100,10 +61,53 @@ class NavBar extends React.Component {
                         className="nav-icons" 
                         alt="Email Icon" 
                         src={email} 
-                        height="24px" 
-                        width="24px"
+                        height="22px" 
+                        width="22px"
                         />
                     </a>
+                    
+                    <a href="https://www.facebook.com/Impact-Athletes-228267015778457" 
+                    rel="noreferrer" 
+                    target="_blank"
+                    >
+                        <img 
+                        className="nav-icons" 
+                        alt="Facebook Icon" 
+                        src={facebook} 
+                        height="22px" 
+                        width="22px"
+                        />
+                    </a>
+
+                    <a href="https://www.instagram.com/impact.athletes/" 
+                    target="_blank"
+                    rel="noreferrer"
+                    >
+                        <img 
+                        className="nav-icons" 
+                        alt="Instagram Icon" 
+                        src={instagram} 
+                        height="22px" 
+                        width="22px"
+                        />
+                    </a>
+
+                    <a href="https://twitter.com/ImpactAthletes" 
+                    target="_blank"
+                    rel="noreferrer"
+                    >
+                        <img 
+                        className="nav-icons" 
+                        alt="Twitter Icon" 
+                        src={twitter} 
+                        height="22px" 
+                        width="22px"
+                        />
+                    </a>
+
+                    <p className="nav-menu__label">
+                        Ricky Santiago, CEO &amp; Founder
+                    </p>
 
                 </div>
                 
