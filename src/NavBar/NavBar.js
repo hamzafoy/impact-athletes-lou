@@ -2,6 +2,10 @@ import './NavBar.css';
 import React from 'react';
 import { withRouter, Link } from 'react-router-dom';
 import facebook from '../assets/facebook.svg';
+import instagram from '../assets/instagram.svg';
+import email from '../assets/gmail.svg';
+import twitter from '../assets/twitter.svg';
+import officephone from '../assets/phone.svg';
 
 
 
@@ -49,53 +53,53 @@ class NavBar extends React.Component {
                         />
                     </a>
 
-                    <a href="https://www.facebook.com/Impact-Athletes-228267015778457" 
+                    <a href="https://www.instagram.com/impact.athletes/" 
                     target="_blank"
                     rel="noreferrer"
                     >
                         <img 
                         className="nav-icons" 
-                        alt="Facebook Icon" 
-                        src={facebook} 
+                        alt="Instagram Icon" 
+                        src={instagram} 
                         height="24px" 
                         width="24px"
                         />
                     </a>
 
-                    <a href="https://www.facebook.com/Impact-Athletes-228267015778457" 
+                    <a href="https://twitter.com/ImpactAthletes" 
                     target="_blank"
                     rel="noreferrer"
                     >
                         <img 
                         className="nav-icons" 
-                        alt="Facebook Icon" 
-                        src={facebook} 
+                        alt="Twitter Icon" 
+                        src={twitter} 
                         height="24px" 
                         width="24px"
                         />
                     </a>
 
-                    <a href="https://www.facebook.com/Impact-Athletes-228267015778457" 
+                    <a href="tel:+15023787805" 
                     target="_blank"
                     rel="noreferrer"
                     >
                         <img 
                         className="nav-icons" 
-                        alt="Facebook Icon" 
-                        src={facebook} 
+                        alt="Phone Icon" 
+                        src={officephone} 
                         height="24px" 
                         width="24px"
                         />
                     </a>
 
-                    <a href="https://www.facebook.com/Impact-Athletes-228267015778457" 
+                    <a href="mailto:Ricky@impactathletes.net" 
                     target="_blank"
                     rel="noreferrer"
                     >
                         <img 
                         className="nav-icons" 
-                        alt="Facebook Icon" 
-                        src={facebook} 
+                        alt="Email Icon" 
+                        src={email} 
                         height="24px" 
                         width="24px"
                         />
