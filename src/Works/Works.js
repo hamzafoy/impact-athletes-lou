@@ -1,5 +1,6 @@
 import './Works.css';
 import React from 'react';
+import ramonProject from '../assets/past-projects__1.png';
 
 
 
@@ -10,7 +11,14 @@ class Works extends React.Component {
         return(
             <div className="works-container">
 
-                <blockquote className="works__quote">
+                <section className="works__testimonies">
+
+                    <h1>
+                        Testimonies
+                    </h1>
+
+                    <blockquote className="works__quote">
+                    
                     <p>
                     Dear Mr. Santiago and Mr. Clemente:
                     We hope that this letter finds you and your loved ones healthy and well.
@@ -20,7 +28,27 @@ class Works extends React.Component {
                     collaborations with our community. Seeing the faces of joy and hope are what fuels
                     PRRU to continue working.
                     </p>
-                </blockquote>
+                    </blockquote>
+
+                </section>
+
+                <section className="works__projects">
+
+                    <h1>
+                        Past Projects
+                    </h1>
+
+                    <aside className="projects__images">
+
+                        <img 
+                        alt="Ramon's Day of Giving Infographic" 
+                        src={ramonProject} 
+                        className="projects__img" 
+                        />
+
+                    </aside>
+
+                </section>
 
             </div>
         )
