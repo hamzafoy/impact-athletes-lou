@@ -20,7 +20,24 @@
 
 .services__description {
     align-self: center;
-    font-family: 'Scope One', serif;
     font-size: 1.25em;
     padding: 0 8vw;
+}
+
+
+.services__description h1 {
+    font-family: 'Rokkitt', serif;
+    color: #4D4D4D;
+}
+
+
+.services__description p {
+    font-family: 'Scope One', serif;
+    color: #4D4D4D;
+}
+
+
+.services__list {
+    font-family: 'Scope One', serif;
+    color: #4D4D4D;
 }
