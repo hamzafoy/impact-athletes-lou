@@ -4,6 +4,7 @@ import LandingPage from './LandingPage/LandingPage';
 import NavBar from './NavBar/NavBar';
 import Services from './Services/Services';
 import ImpactProcess from './ImpactProcess/ImpactProcess';
+import Works from './Works/Works';
 
 
 
@@ -15,6 +16,7 @@ function App() {
                     <Route path="/" exact component={ () => <LandingPage/>} />
                     <Route path="/services" exact component={ () => <Services/>} />
                     <Route path="/impact" exact component={ () => <ImpactProcess/>} />
+                    <Route path="/previous-work" exact component={ () => <Works/>} />
                 </Switch>
                 <NavBar />
             </Router>

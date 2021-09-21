@@ -36,6 +36,12 @@ class NavBar extends React.Component {
                         </Link>
                     </section>
 
+                    <section className="menu-option">
+                        <Link className="anchor" to="/previous-work">
+                            Projects &amp; Testimonies
+                        </Link>
+                    </section>
+
                 </div>
 
                 <div className="nav-menu__icons">
