@@ -46,65 +46,69 @@ class NavBar extends React.Component {
 
                 <div className="nav-menu__icons">
 
-                    <a href="tel:+15023787805" 
-                    target="_blank"
-                    rel="noreferrer"
-                    >
-                        <img 
-                        className="nav-icons" 
-                        alt="Phone Icon" 
-                        src={officephone} 
-                        
-                        />
-                    </a>
+                    <aside className="icon-list">
 
-                    <a href="mailto:Ricky@impactathletes.net" 
-                    target="_blank"
-                    rel="noreferrer"
-                    >
-                        <img 
-                        className="nav-icons" 
-                        alt="Email Icon" 
-                        src={email} 
-                        
-                        />
-                    </a>
-                    
-                    <a href="https://www.facebook.com/Impact-Athletes-228267015778457" 
-                    rel="noreferrer" 
-                    target="_blank"
-                    >
-                        <img 
-                        className="nav-icons" 
-                        alt="Facebook Icon" 
-                        src={facebook} 
-                        
-                        />
-                    </a>
+                        <a href="tel:+15023787805" 
+                        target="_blank"
+                        rel="noreferrer"
+                        >
+                            <img 
+                            className="nav-icons" 
+                            alt="Phone Icon" 
+                            src={officephone} 
+                            
+                            />
+                        </a>
 
-                    <a href="https://www.instagram.com/impact.athletes/" 
-                    target="_blank"
-                    rel="noreferrer"
-                    >
-                        <img 
-                        className="nav-icons" 
-                        alt="Instagram Icon" 
-                        src={instagram} 
+                        <a href="mailto:Ricky@impactathletes.net" 
+                        target="_blank"
+                        rel="noreferrer"
+                        >
+                            <img 
+                            className="nav-icons" 
+                            alt="Email Icon" 
+                            src={email} 
+                            
+                            />
+                        </a>
                         
-                        />
-                    </a>
+                        <a href="https://www.facebook.com/Impact-Athletes-228267015778457" 
+                        rel="noreferrer" 
+                        target="_blank"
+                        >
+                            <img 
+                            className="nav-icons" 
+                            alt="Facebook Icon" 
+                            src={facebook} 
+                            
+                            />
+                        </a>
 
-                    <a href="https://twitter.com/ImpactAthletes" 
-                    target="_blank"
-                    rel="noreferrer"
-                    >
-                        <img 
-                        className="nav-icons" 
-                        alt="Twitter Icon" 
-                        src={twitter} 
-                        
-                        />
-                    </a>
+                        <a href="https://www.instagram.com/impact.athletes/" 
+                        target="_blank"
+                        rel="noreferrer"
+                        >
+                            <img 
+                            className="nav-icons" 
+                            alt="Instagram Icon" 
+                            src={instagram} 
+                            
+                            />
+                        </a>
+
+                        <a href="https://twitter.com/ImpactAthletes" 
+                        target="_blank"
+                        rel="noreferrer"
+                        >
+                            <img 
+                            className="nav-icons" 
+                            alt="Twitter Icon" 
+                            src={twitter} 
+                            
+                            />
+                        </a>
+
+                    </aside>
 
                     <p className="nav-menu__label">
                         Ricky Santiago, CEO &amp; Founder

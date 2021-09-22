@@ -1,6 +1,7 @@
 .nav-menu {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     height: 9.5vh;
     width: 100%;
@@ -12,13 +13,15 @@
 .nav-menu__options {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    align-content: flex-start;
 }
 
 .menu-option {
-    margin: 0 .45vw;
+    margin: .35vh 1.15vw;
     font-family: 'Rokkitt', serif;
-    font-size: .65em;
+    font-size: .85em;
     font-weight: 900;
     color: #4D4D4D;
 }
@@ -36,6 +39,7 @@
     font-family: 'Scope One', serif;
     font-weight: 700;
     font-size: .45em;
+    text-align: center;
 }
 
 
@@ -53,6 +57,13 @@
 .nav-icons {
     height: 18px;
     width: 18px;
+}
+
+
+.icon-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 
@@ -96,6 +107,7 @@
         font-family: 'Scope One', serif;
         font-weight: 700;
         font-size: .85em;
+        text-align: center;
     }
     
     
@@ -107,6 +119,13 @@
     
     .nav-menu__icons a {
         margin: 0 .45vw;
+    }
+
+
+    .icon-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 
 }
