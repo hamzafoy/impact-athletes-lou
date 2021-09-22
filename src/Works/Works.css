@@ -16,8 +16,8 @@
 .works__quote {
     background: #f9f9f9;
     border-left: 16px solid #4D4D4D;
-    margin: 1.5em 20vw;
-    padding: 0.5em 5vw;
+    margin: 1.5em 27.5vw;
+    padding: 0.5em 1.25vw;
 }
 
 
@@ -35,6 +35,12 @@
     display: inline;
     font-family: 'Scope One', serif;
     color: #4D4D4D;
+    font-size: 0.75em;
+}
+
+
+.works__projects {
+    margin: 5vh 0 7.5vh;
 }
 
 
@@ -48,4 +54,22 @@
 .projects__img {
     height: 250px;
     width: 250px;
+}
+
+
+.projects__img-modal {
+    height: 650px;
+    width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -325px;
+    margin-left: -325px;
+}
+
+
+figcaption {
+    font-family: 'Scope One', serif;
+    text-align: center;
+    font-size: 0.65em;
 }
