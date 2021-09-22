@@ -5,6 +5,21 @@
 }
 
 
+.modal-container-active {
+    display: block;
+    z-index: 5;
+    position: absolute;
+    height: 130vh;
+    width: 100vw;
+    background-color: rgba(77, 77, 77, 0.65);
+}
+
+
+.modal-container-hidden {
+    display: none;
+}
+
+
 .works__testimonies h1,
 .works__projects h1 {
     text-align: center;
@@ -58,29 +73,48 @@
 
 
 .projects__img-modal {
-    height: 650px;
-    width: 650px;
+    z-index: 6;
+    height: 360px;
+    width: 360px;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -325px;
-    margin-left: -325px;
+    margin-top: -180px;
+    margin-left: -180px;
 }
 
 
 figcaption {
     font-family: 'Scope One', serif;
     text-align: center;
-    font-size: 0.65em;
+    font-size: 0.75em;
+    background-color: #E0E0E0;
+    padding: .35vh 0;
+    margin-top: -5px;
 }
 
 
 @media (min-width: 1280px) {
 
 .works-container {
-    min-height: 100vh;
+    height: 130vh;
     width: 100%;
     background-color: #E0E0E0;
+}
+
+
+.modal-container-active {
+    display: block;
+    z-index: 5;
+    position: absolute;
+    height: 130vh;
+    width: 100vw;
+    background-color: rgba(77, 77, 77, 0.65);
+}
+
+
+.modal-container-hidden {
+    display: none;
 }
 
 
@@ -137,20 +171,24 @@ figcaption {
 
 
 .projects__img-modal {
-    height: 650px;
-    width: 650px;
+    z-index: 6;
+    height: 360px;
+    width: 360px;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -325px;
-    margin-left: -325px;
+    margin-top: -180px;
+    margin-left: -180px;
 }
 
 
 figcaption {
     font-family: 'Scope One', serif;
     text-align: center;
-    font-size: 0.65em;
+    font-size: 0.75em;
+    background-color: #E0E0E0;
+    padding: .35vh 0;
+    margin-top: -5px;
 }
 
 }
