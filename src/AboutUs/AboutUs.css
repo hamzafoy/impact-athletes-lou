@@ -107,7 +107,7 @@
     .about-us-container {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: flex-start;
         align-items: center;
         width: 100%;
         min-height: 100vh;
@@ -115,8 +115,9 @@
     }
 
     .about-us {
-        height: 38vh;
-        width: 45vw;
+        height: 50vh;
+        width: 33vw;
+        margin: 0 6vw;
         border: 4px #4D4D4D double;
         background-color: #CCCCCC;
     }
@@ -141,9 +142,11 @@
 
     .staff-container {
         display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        min-height: 99vh;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        min-height: unset;
     }
 
     .staff {
@@ -151,8 +154,13 @@
         perspective: 150rem;
         height: 325px;
         width: 325px;
-        
     }
+
+
+    .staff:last-of-type {
+        margin-top: 4vh;
+    }
+
 
     .staff_card {
         display: flex;
@@ -217,8 +225,9 @@
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
+        align-items: center;
         width: 100%;
-        min-height: 120vh;
+        min-height: unset;
         background-color: #E0E0E0;
     }
 
@@ -250,19 +259,24 @@
 
     .staff-container {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        align-content: center;
         flex-wrap: wrap;
-        justify-content: space-between;
-        height: 99vh;
     }
+
 
     .staff {
         position: relative;
         perspective: 150rem;
         height: 325px;
         width: 325px;
-        margin-right: 2vw;
     }
+
+
+    .staff:last-of-type {
+        margin-top: 2vh;
+    }
+
 
     .staff_card {
         display: flex;
