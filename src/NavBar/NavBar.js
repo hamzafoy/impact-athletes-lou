@@ -54,8 +54,7 @@ class NavBar extends React.Component {
                         className="nav-icons" 
                         alt="Phone Icon" 
                         src={officephone} 
-                        height="22px" 
-                        width="22px"
+                        
                         />
                     </a>
 
@@ -67,8 +66,7 @@ class NavBar extends React.Component {
                         className="nav-icons" 
                         alt="Email Icon" 
                         src={email} 
-                        height="22px" 
-                        width="22px"
+                        
                         />
                     </a>
                     
@@ -80,8 +78,7 @@ class NavBar extends React.Component {
                         className="nav-icons" 
                         alt="Facebook Icon" 
                         src={facebook} 
-                        height="22px" 
-                        width="22px"
+                        
                         />
                     </a>
 
@@ -93,8 +90,7 @@ class NavBar extends React.Component {
                         className="nav-icons" 
                         alt="Instagram Icon" 
                         src={instagram} 
-                        height="22px" 
-                        width="22px"
+                        
                         />
                     </a>
 
@@ -106,8 +102,7 @@ class NavBar extends React.Component {
                         className="nav-icons" 
                         alt="Twitter Icon" 
                         src={twitter} 
-                        height="22px" 
-                        width="22px"
+                        
                         />
                     </a>
 
