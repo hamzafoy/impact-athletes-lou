@@ -227,7 +227,7 @@
         justify-content: flex-start;
         align-items: center;
         width: 100%;
-        min-height: unset;
+        min-height: 120vh;
         background-color: #E0E0E0;
     }
 
