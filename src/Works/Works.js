@@ -74,8 +74,8 @@ class Works extends React.Component {
 
                             <img 
                             alt="Ramon's Day of Giving Infographic"
-                            height={this.state.modalOn ? "650px" : "250px"}
-                            width={this.state.modalOn ? "650px" : "250px"}
+                            height={this.state.modalOn ? "100%" : "250px"}
+                            width={this.state.modalOn ? "100%" : "250px"}
                             src={ramonProject} 
                             onClick={this.handleChange}
                             />

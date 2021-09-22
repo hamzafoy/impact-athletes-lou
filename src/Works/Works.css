@@ -9,6 +9,85 @@
 .works__projects h1 {
     text-align: center;
     font-family: 'Rokkitt', serif;
+    font-size: 2.25em;
+}
+
+
+.works__quote {
+    background: #f9f9f9;
+    border-left: 16px solid #4D4D4D;
+    margin: 1.15em 1.75vw;
+    padding: 0.5em 1.25vw;
+}
+
+
+.works__quote::before {
+    color: #4D4D4D;
+    content: open-quote;
+    font-size: 2.25em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+
+.works__quote p {
+    display: inline;
+    font-family: 'Scope One', serif;
+    color: #4D4D4D;
+    font-size: 0.6em;
+}
+
+
+.works__projects {
+    margin: 5vh 0 7.5vh;
+}
+
+
+.projects__images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.projects__img {
+    height: 250px;
+    width: 250px;
+}
+
+
+.projects__img-modal {
+    height: 650px;
+    width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -325px;
+    margin-left: -325px;
+}
+
+
+figcaption {
+    font-family: 'Scope One', serif;
+    text-align: center;
+    font-size: 0.65em;
+}
+
+
+@media (min-width: 1280px) {
+
+.works-container {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #E0E0E0;
+}
+
+
+.works__testimonies h1,
+.works__projects h1 {
+    text-align: center;
+    font-family: 'Rokkitt', serif;
     font-size: 2.75em;
 }
 
@@ -72,4 +151,6 @@ figcaption {
     font-family: 'Scope One', serif;
     text-align: center;
     font-size: 0.65em;
+}
+
 }
