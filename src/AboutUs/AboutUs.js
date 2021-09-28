@@ -32,7 +32,34 @@ function AboutUs() {
 
         <section className="staff-container">
 
-            <div className="staff">
+            <aside className="staff-card">
+
+                <figure className="staff-card-picframe">
+
+                    <img className="staff-card__img" alt="Ricky Santiago's headshot" src={rsantiago}/>
+
+                    <figcaption className="staff-card__piclabel">
+                        Ricky Santiago
+                    </figcaption>
+
+                </figure>
+
+                <p className="staff-card__text">
+                    Our CEO and Founder Ricky Santiago grew up in a very Sports
+                    Oriented family. Originally from Ponce, Puerto Rico, a town that takes
+                    sports very seriously that&#39;s the birth place of World Class athletes, by
+                    way of Louisville, KY another town that takes sports very serious, its
+                    was inevitable to be influenced by sports. Having played high school
+                    sport and coaching for HS sports for more than 6 years, Ricky has a
+                    depth of understanding about the mindset of Athletes. Ricky has
+                    served on multiple non-profit boards in the city of Louisville. Ricky
+                    also has a Master’s in Organizational Leadership from Indiana Tech
+                    University.
+                </p>
+
+            </aside>
+
+            {/* <div className="staff">
 
                 <div className="staff_card front">
 
@@ -121,7 +148,7 @@ function AboutUs() {
 
                 </div>
 
-            </div>
+            </div> */}
 
         </section>
 
