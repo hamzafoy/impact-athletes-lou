@@ -39,7 +39,7 @@ function AboutUs() {
                     <img className="staff-card__img" alt="Ricky Santiago's headshot" src={rsantiago}/>
 
                     <figcaption className="staff-card__piclabel">
-                        Ricky Santiago
+                        Ricky Santiago, CEO
                     </figcaption>
 
                 </figure>
@@ -66,7 +66,7 @@ function AboutUs() {
                     <img className="staff-card__img" alt="Ricky Santiago's headshot" src={isanchez}/>
 
                     <figcaption className="staff-card__piclabel">
-                        Isai Sanchez
+                        Isai Sanchez, Director of Athlete Outreach
                     </figcaption>
 
                 </figure>
@@ -93,7 +93,7 @@ function AboutUs() {
                     <img className="staff-card__img" alt="Ricky Santiago's headshot" src={jreyes}/>
 
                     <figcaption className="staff-card__piclabel">
-                        Juliana Reyes
+                        Juliana Reyes, Social Media Manager
                     </figcaption>
 
                 </figure>
