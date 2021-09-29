@@ -10,6 +10,8 @@ function LandingPage() {
     <>
 
       <div className="App">
+
+        <div className="trading-card-container">
         
           <h2 className="mission-text"><span>To capture the natural leadership qualities of athletes for the betterment of their community.</span></h2>
 
@@ -17,6 +19,7 @@ function LandingPage() {
           
           <h2 className="vision-text"><span>A community of Athletes that impact their communities with their services.</span></h2>
         
+        </div>
         
         <section className="title-and-svg">
 

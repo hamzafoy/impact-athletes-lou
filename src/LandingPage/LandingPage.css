@@ -10,7 +10,7 @@
 
 .stock-image {
   height: 70vh;
-  width: 80vw;
+  width: 75%;
   padding: 0.5%;
   border: 4px #4D4D4D double;
 }
@@ -29,6 +29,11 @@
   font-family: 'Rokkitt', serif;
   font-size: 1.25em;
   font-weight: 900;
+}
+
+.trading-card-container {
+  display: flex;
+  justify-content: center;
 }
 
 .double-chevrons-down {
@@ -52,9 +57,9 @@
 .mission-text span {
   display: inline-block;
   position: absolute;
-  left: -515px;
-  top: 195px;
-  width: 700px;
+  left: -255px;
+  top: 318px;
+  width: 500px;
   transform: rotate(-90deg);
 }
 
@@ -66,8 +71,8 @@
   display: inline-block;
   position: absolute;
   width: 500px;
-  left: -85px;
-  top: -305px;
+  left: -245px;
+  top: 243px;
   transform: rotate(90deg);
 }
 
@@ -106,7 +111,7 @@
   }
   
   .name-text {
-    width: 50vw;
+    width: 29vw;
     margin: 0 0;
     padding: 0 0;
     color: #4D4D4D;
@@ -115,13 +120,18 @@
     font-weight: 900;
   }
 
+  .trading-card-container {
+    display: flex;
+    justify-content: center;
+  }
+
   .mission-text,
   .vision-text {
     margin: 0 0;
     padding: 0 0;
     color: #4D4D4D;
     font-family: 'Scope One', serif;
-    font-size: .85em;
+    font-size: .7em;
     font-weight: normal;
   }
 
@@ -138,9 +148,9 @@
   .mission-text span {
     display: inline-block;
     position: absolute;
-    left: -640px;
-    top: 450px;
-    width: 600px;
+    left: -255px;
+    top: 372px;
+    width: 500px;
     transform: rotate(-90deg);
   }
 
@@ -148,14 +158,14 @@
     display: inline-block;
     position: absolute;
     width: 500px;
-    left: 88px;
-    top: -520px;
+    left: -245px;
+    top: 243px;
     transform: rotate(90deg);
   }
 
   .stock-image {
-    height: 85vh;
-    width: 50%;
+    height: 70vh;
+    width: 75%;
     padding: 0.5%;
     border: 4px #4D4D4D double;
   }
@@ -177,7 +187,7 @@
   }
   
   .name-text {
-    width: 28vw;
+    width: 19vw;
     margin: 0 0;
     padding: 0 0;
     color: #4D4D4D;
@@ -186,13 +196,18 @@
     font-weight: 900;
   }
 
+  .trading-card-container {
+    display: flex;
+    justify-content: center;
+  }
+
   .mission-text,
   .vision-text {
     margin: 0 0;
     padding: 0 0;
     color: #4D4D4D;
     font-family: 'Scope One', serif;
-    font-size: .85em;
+    font-size: .7em;
     font-weight: normal;
   }
 
@@ -209,9 +224,9 @@
   .mission-text span {
     display: inline-block;
     position: absolute;
-    left: -532px;
-    top: 290px;
-    width: 600px;
+    left: -255px;
+    top: 260px;
+    width: 500px;
     transform: rotate(-90deg);
   }
 
@@ -219,14 +234,14 @@
     display: inline-block;
     position: absolute;
     width: 500px;
-    left: -20px;
-    top: -360px;
+    left: -245px;
+    top: 243px;
     transform: rotate(90deg);
   }
 
   .stock-image {
-    height: 82vh;
-    width: 28%;
+    height: 70vh;
+    width: 75%;
     padding: 0.5%;
     border: 4px #4D4D4D double;
   }
@@ -254,13 +269,18 @@
   }
   
   .name-text {
-    width: 28vw;
+    width: 19vw;
     margin: 0 0;
     padding: 0 0;
     color: #4D4D4D;
     font-family: 'Rokkitt', serif;
     font-size: 2.5em;
     font-weight: 900;
+  }
+
+  .trading-card-container {
+    display: flex;
+    justify-content: center;
   }
 
   .mission-text,
@@ -270,7 +290,7 @@
     padding: 0 0;
     color: #4D4D4D;
     font-family: 'Scope One', serif;
-    font-size: .85em;
+    font-size: .75em;
     font-weight: normal;
   }
 
@@ -285,24 +305,24 @@
   .mission-text span {
     display: inline-block;
     position: absolute;
-    left: -5px;
-    top: 295px;
-    width: 600px;
-    transform: rotate(90deg);
+    width: 550px;
+    left: -280px;
+    top: 347px;
+    transform: rotate(-90deg);
   }
 
   .vision-text span {
     display: inline-block;
     position: absolute;
     width: 500px;
-    left: -545px;
-    top: -265px;
-    transform: rotate(-90deg);
+    left: -245px;
+    top: 243px;
+    transform: rotate(90deg);
   }
 
   .stock-image {
-    height: 82vh;
-    width: 28vw;
+    height: 70vh;
+    width: 75%;
     padding: 0.5%;
     border: 4px #4D4D4D double;
   }
