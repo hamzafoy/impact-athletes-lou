@@ -33,11 +33,42 @@
     font-weight: normal;
 }
 
+
 .staff-container {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    min-height: 125vh;
+    min-height: 220vh;
+    width: 100%;
+    margin: 7.5vh 0 7.5vh;
+}
+
+
+.staff-card {
+    display: flex;
+    flex-direction: column;
+    margin: 0 7.5vw;
+    border: 4px #4D4D4D double;
+    background-color: #CCCCCC;
+}
+
+
+.staff-card-picframe {
+    align-self: center;
+}
+
+
+.staff-card__img {
+    height: 200px;
+    width: 200px;
+}
+
+
+.staff-card__text {
+    align-self: center;
+    padding: 0 5vw;
+    font-family: 'Scope One', serif;
+    font-size: 0.75em;
 }
 
 
@@ -46,18 +77,16 @@
 
     .about-us-container {
         display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
+        flex-direction: column;
         width: 100%;
-        min-height: 100vh;
+        min-height: 120vh;
         background-color: #E0E0E0;
     }
 
     .about-us {
-        height: 50vh;
-        width: 33vw;
-        margin: 0 6vw;
+        height: 32vh;
+        width: 50vw;
+        margin: 10vh 10vw 0;
         border: 4px #4D4D4D double;
         background-color: #CCCCCC;
     }
@@ -82,11 +111,38 @@
 
     .staff-container {
         display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        min-height: 165vh;
+        margin: 10vh 0 10vh;
+    }
+
+
+    .staff-card {
+        display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        align-content: center;
-        min-height: unset;
+        margin: 0 10vw;
+        border: 4px #4D4D4D double;
+        background-color: #CCCCCC;
+    }
+
+
+    .staff-card-picframe {
+        align-self: center;
+    }
+
+
+    .staff-card__img {
+        height: 225px;
+        width: 225px;
+    }
+
+
+    .staff-card__text {
+        align-self: center;
+        padding: 0 5vw;
+        font-family: 'Scope One', serif;
+        font-size: 1.25em;
     }
     
   }
@@ -95,18 +151,16 @@
 
     .about-us-container {
         display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
+        flex-direction: column;
         width: 100%;
         min-height: 120vh;
         background-color: #E0E0E0;
     }
 
     .about-us {
-        height: 60vh;
-        width: 25vw;
-        margin: 0 10vw;
+        height: 32vh;
+        width: 50vw;
+        margin: 10vh 10vw 0;
         border: 4px #4D4D4D double;
         background-color: #CCCCCC;
     }
@@ -131,9 +185,38 @@
 
     .staff-container {
         display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        min-height: 140vh;
+        margin: 10vh 0 10vh;
+    }
+
+
+    .staff-card {
+        display: flex;
         flex-direction: row;
-        align-content: center;
-        flex-wrap: wrap;
+        margin: 0 10vw;
+        border: 4px #4D4D4D double;
+        background-color: #CCCCCC;
+    }
+
+
+    .staff-card-picframe {
+        align-self: center;
+    }
+
+
+    .staff-card__img {
+        height: 225px;
+        width: 225px;
+    }
+
+
+    .staff-card__text {
+        align-self: center;
+        padding: 0 5vw;
+        font-family: 'Scope One', serif;
+        font-size: 1.25em;
     }
     
   }
@@ -178,9 +261,9 @@
     .staff-container {
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        min-height: 99vh;
-        margin: 10vh 0 0;
+        justify-content: space-evenly;
+        min-height: 125vh;
+        margin: 10vh 0 10vh;
     }
 
 
@@ -190,6 +273,11 @@
         margin: 0 10vw;
         border: 4px #4D4D4D double;
         background-color: #CCCCCC;
+    }
+
+
+    .staff-card-picframe {
+        align-self: center;
     }
 
 
@@ -205,7 +293,5 @@
         font-family: 'Scope One', serif;
         font-size: 1.25em;
     }
-
-    
 
 }
