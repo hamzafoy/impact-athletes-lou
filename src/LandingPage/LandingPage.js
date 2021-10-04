@@ -1,5 +1,5 @@
 import './LandingPage.css';
-import stockimage from '../assets/stock_football.jpg';
+import stockimage from '../assets/stock_foto.png';
 import AboutUs from '../AboutUs/AboutUs';
 
 
