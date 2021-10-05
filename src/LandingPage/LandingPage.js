@@ -1,6 +1,6 @@
 import './LandingPage.css';
 import AboutUs from '../AboutUs/AboutUs';
-import logo from '../assets/logo.jpg';
+import logo from '../assets/logo-transparent.png';
 
 
 

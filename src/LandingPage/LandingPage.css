@@ -39,7 +39,8 @@
 .title-logo {
   height: 150px;
   width: 150px;
-  opacity: 0.7;
+  background-color: rgba(80,80,80, 0.5);
+  opacity: 1;
 }
 
 .trading-card-container {
@@ -152,7 +153,8 @@
   .title-logo {
     height: 150px;
     width: 150px;
-    opacity: 0.7;
+    background-color: rgba(80,80,80, 0.5);
+    opacity: 1;
   }
 
   .trading-card-container {
@@ -253,8 +255,10 @@
   .title-logo {
     height: 150px;
     width: 150px;
-    opacity: 0.7;
+    background-color: rgba(80,80,80, 0.5);
+    opacity: 1;
   }
+
 
   .trading-card-container {
     display: flex;
@@ -345,7 +349,8 @@
   .title-logo {
     height: 150px;
     width: 150px;
-    opacity: 0.7;
+    background-color: rgba(80,80,80, 0.5);
+    opacity: 1;
   }
 
   .trading-card-container {
