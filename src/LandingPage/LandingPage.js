@@ -1,5 +1,6 @@
 import './LandingPage.css';
 import AboutUs from '../AboutUs/AboutUs';
+import logo from '../assets/logo.jpg';
 
 
 
@@ -22,7 +23,13 @@ function LandingPage() {
         
         <section className="title-and-svg">
 
-          <h2 className="name-text">Impact Athletes</h2>
+          {/* <h2 className="name-text">Impact Athletes</h2> */}
+
+          <img
+          src={logo}
+          alt="Impact Athletes Logo"
+          className="title-logo"
+          />
 
           <svg
           xmlns="http://www.w3.org/2000/svg"
