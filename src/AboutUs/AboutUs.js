@@ -24,10 +24,6 @@ function AboutUs() {
                 you build your dreams of IMPACT.
             </p>
 
-            <p className="about-us__text bold-text">
-                Hover/Tap on the following cards to read our staff's bios!
-            </p>
-
         </section>
 
         <section className="staff-container">
