@@ -5,7 +5,10 @@
   align-items: center;
   width: 100%;
   min-height: 100vh;
-  background-color: #E0E0E0;
+  background: url('../assets/stock_foto.png');
+  background-position: 88% 70%;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 .stock-image {
@@ -19,13 +22,14 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin: 50vh 0 0;
 }
 
 .name-text {
-  width: 76vw;
+  width: 40vw;
   margin: 0 0;
   padding: 0 0;
-  color: #4D4D4D;
+  color: #E0E0E0;
   font-family: 'Rokkitt', serif;
   font-size: 1.25em;
   font-weight: 900;
@@ -38,6 +42,7 @@
 
 .double-chevrons-down {
   animation: motiondown .9s ease infinite;
+  color: #E0E0E0;
 }
 
 .mission-text,
@@ -113,20 +118,24 @@
   .App {
     display: flex;
     min-height: 100vh;
-    background-color: #E0E0E0;
+    background: url('../assets/stock_foto.png');
+    background-position: 40% 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .title-and-svg {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 50vh 0 0;
   }
   
   .name-text {
-    width: 29vw;
+    width: 24vw;
     margin: 0 0;
     padding: 0 0;
-    color: #4D4D4D;
+    color: #E0E0E0;
     font-family: 'Rokkitt', serif;
     font-size: 2.5em;
     font-weight: 900;
@@ -201,7 +210,12 @@
 
   .App {
     display: flex;
+    flex-direction: column;
     min-height: 100vh;
+    background: url('../assets/stock_foto.png');
+    background-position: 40% 75%;
+    background-repeat: no-repeat;
+    background-size: auto;
     background-color: #E0E0E0;
   }
 
@@ -209,13 +223,14 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 50vh 0 0;
   }
   
   .name-text {
     width: 19vw;
     margin: 0 0;
     padding: 0 0;
-    color: #4D4D4D;
+    color: #E0E0E0;
     font-family: 'Rokkitt', serif;
     font-size: 2.5em;
     font-weight: 900;
@@ -284,7 +299,10 @@
     align-items: center;
     width: 100%;
     min-height: 100vh;
-    background-color: #E0E0E0;
+    background: url('../assets/stock_foto.png');
+    background-position: 40% 75%;
+    background-repeat: no-repeat;
+    background-size: auto;
   }
 
   .title-and-svg {
