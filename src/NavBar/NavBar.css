@@ -28,6 +28,7 @@
 
 
 .anchor {
+    color: #4D4D4D;
     text-decoration: none;
 }
 
@@ -36,9 +37,10 @@
     margin-block-start: 0;
     margin-block-end: 0;
     margin: .25vh 0 0;
-    font-family: 'Scope One', serif;
+    color: #4D4D4D;
+    font-family: 'Rokkitt', serif;
     font-weight: 700;
-    font-size: .45em;
+    font-size: .95em;
     text-align: center;
 }
 
@@ -96,6 +98,7 @@
     
     
     .anchor {
+        color: #4D4D4D;
         text-decoration: none;
     }
     
@@ -104,9 +107,10 @@
         margin-block-start: 0;
         margin-block-end: 0;
         margin: .85vh 0 0;
-        font-family: 'Scope One', serif;
+        color: #4D4D4D;
+        font-family: 'Rokkitt', serif;
         font-weight: 700;
-        font-size: .85em;
+        font-size: 1.25em;
         text-align: center;
     }
     

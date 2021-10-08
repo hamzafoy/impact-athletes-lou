@@ -111,7 +111,7 @@ class NavBar extends React.Component {
                     </aside>
 
                     <p className="nav-menu__label">
-                        Ricky Santiago, CEO &amp; Founder
+                        Contact Us
                     </p>
 
                 </div>
