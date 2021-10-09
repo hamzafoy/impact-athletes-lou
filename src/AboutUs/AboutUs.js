@@ -118,7 +118,7 @@ function AboutUs() {
                             </a>
 
                             <a 
-                            href="mailto:Ricky@impactathletes.net" 
+                            href="mailto:isai.sanchez@impactathletes.net" 
                             target="_blank"
                             rel="noreferrer"
                             >
@@ -179,7 +179,7 @@ function AboutUs() {
                             </a>
 
                             <a 
-                            href="mailto:Ricky@impactathletes.net" 
+                            href="mailto:info@impactathletes.net" 
                             target="_blank"
                             rel="noreferrer"
                             >
@@ -193,7 +193,7 @@ function AboutUs() {
                             </a>
 
                         </aside>
-                        
+
                     </figcaption>
 
                 </figure>
