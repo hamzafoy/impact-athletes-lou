@@ -65,6 +65,22 @@
 }
 
 
+.staff-card__piclabel {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.staff-icons {
+    margin: 0.5vh 0 0;
+}
+
+
+.staff-icons a {
+    margin: 0 1vw;
+}
+
+
 .staff-card__text {
     align-self: center;
     padding: 0 5vw;

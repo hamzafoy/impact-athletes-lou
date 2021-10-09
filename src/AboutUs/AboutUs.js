@@ -2,6 +2,8 @@ import './AboutUs.css';
 import rsantiago from '../assets/rs_headshot.jpeg';
 import isanchez from '../assets/is_headshot.jpg';
 import jreyes from '../assets/jr_headshot.png';
+import officephone from '../assets/phone.svg';
+import email from '../assets/gmail.svg';
 
 
 
@@ -35,7 +37,41 @@ function AboutUs() {
                     <img className="staff-card__img" alt="Ricky Santiago's headshot" src={rsantiago}/>
 
                     <figcaption className="staff-card__piclabel">
+
                         Ricky Santiago <br/> CEO
+
+                        <aside className="staff-icons">
+
+                            <a 
+                            href="tel:+15023787805" 
+                            target="_blank"
+                            rel="noreferrer"
+                            >
+                            
+                                <img 
+                                className="nav-icons" 
+                                alt="Phone Icon" 
+                                src={officephone} 
+                                />
+
+                            </a>
+
+                            <a 
+                            href="mailto:Ricky@impactathletes.net" 
+                            target="_blank"
+                            rel="noreferrer"
+                            >
+
+                                <img 
+                                className="nav-icons" 
+                                alt="Email Icon" 
+                                src={email} 
+                                />
+
+                            </a>
+
+                        </aside>
+
                     </figcaption>
 
                 </figure>
@@ -62,7 +98,41 @@ function AboutUs() {
                     <img className="staff-card__img" alt="Ricky Santiago's headshot" src={isanchez}/>
 
                     <figcaption className="staff-card__piclabel">
+
                         Isai Sanchez <br/> Director of Athlete Outreach
+
+                        <aside className="staff-icons">
+
+                            <a 
+                            href="tel:+15023787805" 
+                            target="_blank"
+                            rel="noreferrer"
+                            >
+                            
+                                <img 
+                                className="nav-icons" 
+                                alt="Phone Icon" 
+                                src={officephone} 
+                                />
+
+                            </a>
+
+                            <a 
+                            href="mailto:Ricky@impactathletes.net" 
+                            target="_blank"
+                            rel="noreferrer"
+                            >
+
+                                <img 
+                                className="nav-icons" 
+                                alt="Email Icon" 
+                                src={email} 
+                                />
+
+                            </a>
+
+                        </aside>
+
                     </figcaption>
 
                 </figure>
@@ -89,7 +159,41 @@ function AboutUs() {
                     <img className="staff-card__img" alt="Ricky Santiago's headshot" src={jreyes}/>
 
                     <figcaption className="staff-card__piclabel">
+
                         Juliana Reyes <br/> Social Media Manager
+
+                        <aside className="staff-icons">
+
+                            <a 
+                            href="tel:+15023787805" 
+                            target="_blank"
+                            rel="noreferrer"
+                            >
+                            
+                                <img 
+                                className="nav-icons" 
+                                alt="Phone Icon" 
+                                src={officephone} 
+                                />
+
+                            </a>
+
+                            <a 
+                            href="mailto:Ricky@impactathletes.net" 
+                            target="_blank"
+                            rel="noreferrer"
+                            >
+
+                                <img 
+                                className="nav-icons" 
+                                alt="Email Icon" 
+                                src={email} 
+                                />
+
+                            </a>
+
+                        </aside>
+                        
                     </figcaption>
 
                 </figure>
