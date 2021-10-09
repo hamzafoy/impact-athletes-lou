@@ -104,7 +104,7 @@ function AboutUs() {
                         <aside className="staff-icons">
 
                             <a 
-                            href="tel:+15023787805" 
+                            href="tel:+15028211931" 
                             target="_blank"
                             rel="noreferrer"
                             >
@@ -163,20 +163,6 @@ function AboutUs() {
                         Juliana Reyes <br/> Social Media Manager
 
                         <aside className="staff-icons">
-
-                            <a 
-                            href="tel:+15023787805" 
-                            target="_blank"
-                            rel="noreferrer"
-                            >
-                            
-                                <img 
-                                className="nav-icons" 
-                                alt="Phone Icon" 
-                                src={officephone} 
-                                />
-
-                            </a>
 
                             <a 
                             href="mailto:info@impactathletes.net" 
