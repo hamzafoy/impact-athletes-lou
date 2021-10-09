@@ -196,7 +196,7 @@
     .staff-card {
         display: flex;
         flex-direction: row;
-        margin: 0 10vw;
+        margin: 0 20vw;
         border: 4px #4D4D4D double;
         background-color: #CCCCCC;
     }
@@ -208,16 +208,16 @@
 
 
     .staff-card__img {
-        height: 275px;
-        width: 275px;
+        height: 225px;
+        width: 225px;
     }
 
 
     .staff-card__text {
         align-self: center;
-        padding: 0 5vw;
+        padding: 0 2vw;
         font-family: 'Scope One', serif;
-        font-size: 1.25em;
+        font-size: 1.05em;
     }
     
   }
