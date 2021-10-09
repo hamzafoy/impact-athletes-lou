@@ -48,7 +48,7 @@
 .staff-card {
     display: flex;
     flex-direction: column;
-    margin: 0 4.5vw;
+    margin: 0 6.5vw;
     border: 4px #4D4D4D double;
     background-color: #CCCCCC;
 }
@@ -60,8 +60,8 @@
 
 
 .staff-card__img {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
 }
 
 
@@ -69,7 +69,7 @@
     align-self: center;
     padding: 0 5vw;
     font-family: 'Scope One', serif;
-    font-size: 0.65em;
+    font-size: 0.75em;
 }
 
 
@@ -122,7 +122,7 @@
     .staff-card {
         display: flex;
         flex-direction: row;
-        margin: 0 10vw;
+        margin: 0 18vw;
         border: 4px #4D4D4D double;
         background-color: #CCCCCC;
     }
@@ -141,9 +141,9 @@
 
     .staff-card__text {
         align-self: center;
-        padding: 0 5vw;
+        padding: 0 2vw;
         font-family: 'Scope One', serif;
-        font-size: 1.15em;
+        font-size: 1.05em;
     }
     
   }
